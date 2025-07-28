@@ -294,12 +294,6 @@ footer {
   }
 }
 
-#resume {
-  display: flex;
-  flex-direction: column;
-  align-items: center;      /* Center horizontally */
-  justify-content: center;  /* Center vertically */
-  min-height: 100vh;        /* Full screen height */
-  text-align: center;       /* Center text inside */
+#resume{
+  align-items: center;
 }
-
