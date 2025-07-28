@@ -293,4 +293,7 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+#resume{
+  align-item: center;
+}
 
