@@ -296,9 +296,14 @@ footer {
 
 #resume {
   display: flex;
-  flex-direction: column; /* optional: stacks children vertically */
-  align-items: center;     /* centers children horizontally */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  text-align: center;      /* centers text inside the section */
+  min-height: 100vh;
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.1); /* black with 10% opacity */
+  /* You can adjust RGBA values or use white (255,255,255,0.3), etc. */
 }
