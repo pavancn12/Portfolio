@@ -294,8 +294,11 @@ footer {
   }
 }
 
-#resume{
-  align-items: center;
+#resume {
+  display: flex;
+  flex-direction: column; /* optional: stacks children vertically */
+  align-items: center;     /* centers children horizontally */
   padding-top: 5px;
   padding-bottom: 5px;
+  text-align: center;      /* centers text inside the section */
 }
