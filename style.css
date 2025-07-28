@@ -225,17 +225,22 @@ footer {
   justify-content: space-between;
 }
 @media (max-width: 768px) {
-  .about-container {
+  .nav-links {
     flex-direction: column;
-    align-items: center;
-  }
-
-  .about-image-rectangle img {
+    background-color: #1e293b;
     width: 100%;
-    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    display: none;
   }
-
-  .about-text {
-    text-align: justify;
+  .nav-links.show {
+    display: flex;
   }
 }
+.nav-links a.active {
+  color: #facc15;
+  font-weight: bold;
+}
+
+
