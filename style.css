@@ -52,7 +52,12 @@ section {
   font-size: 1.5rem;
   font-weight: bold;
   color: #38bdf8;
-  font-family: 'Allura', cursive;
+  font-family: "Dancing Script", cursive;
+}
+.name-highlight {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  color: #facc15;
 }
 .nav-links {
   list-style: none;
