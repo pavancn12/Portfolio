@@ -337,3 +337,7 @@ display: flex;
 .icon1:hover {
   color: #facc15;
 }
+html {
+  scroll-behavior: smooth;
+}
+
