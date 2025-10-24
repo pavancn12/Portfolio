@@ -350,7 +350,7 @@ html {
 }
 
 #research h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 2rem;
   color: #ffffff; /* white color for heading */
   font-family: 'Segoe UI', sans-serif; /* same as default body font */
@@ -383,5 +383,6 @@ html {
   color: #cbd5e1;
   line-height: 1.6;
 }
+
 
 
