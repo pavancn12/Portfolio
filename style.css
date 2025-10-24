@@ -341,3 +341,45 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Research Paper Section */
+#research {
+  padding: 4rem 2rem;
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+#research h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #facc15;
+  font-family: 'Playfair Display', serif;
+}
+
+.research-card {
+  background-color: #1e293b;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  margin-top: 1.5rem;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-5px);
+}
+
+.research-card h3 {
+  font-size: 1.3rem;
+  color: #38bdf8;
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.research-card p {
+  font-size: 1rem;
+  color: #cbd5e1;
+  line-height: 1.6;
+}
+
