@@ -349,14 +349,6 @@ html {
   text-align: left;
 }
 
-#research h2 {
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
-  color: #ffffff; /* white color for heading */
-  font-family: 'Segoe UI', sans-serif; /* same as default body font */
-  font-weight: bold;
-}
-
 .research-card {
   background-color: #1e293b;
   padding: 2rem;
@@ -383,6 +375,7 @@ html {
   color: #cbd5e1;
   line-height: 1.6;
 }
+
 
 
 
