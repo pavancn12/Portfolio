@@ -352,8 +352,9 @@ html {
 #research h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
-  color: #facc15;
-  font-family: 'Playfair Display', serif;
+  color: #ffffff; /* white color for heading */
+  font-family: 'Segoe UI', sans-serif; /* same as default body font */
+  font-weight: bold;
 }
 
 .research-card {
